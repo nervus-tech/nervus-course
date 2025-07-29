@@ -3,7 +3,7 @@ services:
   staging:
     image: ghcr.io/nervus-tech/nervus-course:staging
     ports:
-      - "8084:8080"
+      - "8094:8080"
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/nervus
       - SPRING_DATASOURCE_USERNAME=nervus_user
