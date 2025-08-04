@@ -22,7 +22,7 @@ public class DataInitializer implements CommandLineRunner {
             Course course2 = new Course("CS201", "Advanced Programming", 2L);
             courseRepository.save(course1);
             courseRepository.save(course2);
-            System.out.println("Seeded 2 courses into courses");
+            System.out.println("Seeded 2 courses into course service");
         } else {
             System.out.println("Courses already seeded, skipping...");
         }
